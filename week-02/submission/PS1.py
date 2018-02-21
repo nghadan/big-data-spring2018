@@ -28,8 +28,8 @@ print(c)
 # C. Random Function
 from random import randint
 num = randint(100, 1000)
-low = input("Enter the lowest number: ")
-high = input("Enter the highest number: ")
+low = input("What's the lower limit?")
+high = input("What's the higher limit?")
 low_int = int(low)
 high_int = int(high)
 print (low_int)
