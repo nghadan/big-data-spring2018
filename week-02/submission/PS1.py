@@ -35,7 +35,6 @@ high_int = int(high)
 print (low_int)
 print (high_int)
 
-#create a function that reads two number, and outputs a number b2n them
 def random_number(high=1000, low=100):
     randompy = randint(low,high)
     print(randompy)
