@@ -78,12 +78,12 @@ while passwordtimes == 0:
         print("Wrong password!")
 
 # F. Exponential Function
-def exp(x,y):
+def exp(a,b):
     count = 1
-    output = x
+    output = a
 
-    while count < y:
-        output = output*x
+    while count < b:
+        output = output*a
         count = count+1
     else:
         return(output)
